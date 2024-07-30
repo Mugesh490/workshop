@@ -33,14 +33,14 @@ function toggleComplete(index) {
 function showTasks() {
     let tasks = getTasks();
     let adder = '';
-    for(let i = 0; i < tasks.length; i++) {
+    for (let i = 0; i < tasks.length; i++) {
         adder += '<li>';
-        if(tasks[i].completed) {
+        if (tasks[i].completed) {
             adder += '<s>' + tasks[i].task + '</s>';
         } else {
             adder += tasks[i].task;
         }
-        adder += ' <button onclick="toggleComplete(' + i + ')">Toggle Complete</button>';
+        adder += ' <button onclick="toggleComplete(' + i + ')"> Complete</button>';
         adder += ' <button onclick="deleteTask(' + i + ')">Delete</button>';
         adder += '</li>';
     }

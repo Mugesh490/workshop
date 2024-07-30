@@ -9,13 +9,14 @@ Ensure the tasks persist across page reloads and sessions. -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List</title>
+    <link rel="stylesheet" href="/CSS/todo.css">
     <script src="/JS/todo.js"></script>
 </head>
 
 <body>
-    <h1>Todo List</h1>
-    <input id="todoInput" type="text" placeholder="New task">
-    <button onclick="newTask()">Add</button>
+    <h1>To-do List</h1>
+    <input id="todoInput" type="text" placeholder="Enter a task">
+    <button onclick="newTask()" class="btn">Add Task</button>
     <ul id="todoList"></ul>
 
 </body>

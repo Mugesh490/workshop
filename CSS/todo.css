@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(/Assets/bg5.jpg);
+    background-size: cover;
+
+}
+
+h1 {
+    text-align: center;
+    color: ivory;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+
+#todoInput {
+    margin-left: 43%;
+    background-color: rgb(223, 210, 194);
+    height: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: beige;
+}
+
+#todoList {
+    margin-left: 45%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn {
+    background-color: blanchedalmond;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: beige;
+
+}
