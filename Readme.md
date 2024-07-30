@@ -3,7 +3,7 @@ Implement features such as adding, editing, deleting tasks, and marking tasks as
 Ensure the tasks persist across page reloads and sessions. 
 
 
-output of To do List
+Output of To do List
 
 ![output](/Assets/output.png)
  
